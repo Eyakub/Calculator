@@ -10,8 +10,9 @@ Download the project and go to your Android studio
 ```
 
 ## Installing
-
+```
 Run to your AVD or Connect your Android device and run the app
+```
 
 ## Gradle & SDK
 ```
