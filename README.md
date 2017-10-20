@@ -11,7 +11,7 @@ Download the project and go to your Android studio
 
 ## Installing
 ```
-Run to your AVD or Connect your Android device and run the app
+Run to your **AVD** or Connect your Android device and run the app
 ```
 
 ## Gradle & SDK
@@ -22,7 +22,7 @@ SDK version: 24
 
 ## License
 
-This project is free to use.
+This project is **free** to use.
 
 ## Acknowledgments
 
