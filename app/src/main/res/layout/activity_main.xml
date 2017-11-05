@@ -51,7 +51,6 @@
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:background="#FF206775"
-                android:onClick="clear"
                 android:text="C"
                 android:textColor="@android:color/white"
                 android:textSize="35dp" />
@@ -75,6 +74,7 @@
                 android:textSize="35dp" />
 
             <Button
+                android:id="@+id/buttonDel"
                 android:layout_width="0dp"
                 android:layout_height="90dp"
                 android:layout_weight="1"
@@ -96,7 +96,6 @@
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:background="@color/colorPrimaryDark"
-                android:onClick="onClick"
                 android:text="1"
                 android:textColor="@android:color/white"
                 android:textSize="35dp" />
@@ -107,7 +106,6 @@
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:background="@color/colorPrimaryDark"
-                android:onClick="onClick"
                 android:text="2"
                 android:textColor="@android:color/white"
                 android:textSize="35dp" />
@@ -118,7 +116,6 @@
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:background="@color/colorPrimaryDark"
-                android:onClick="onClick"
                 android:text="3"
                 android:textColor="@android:color/white"
                 android:textSize="35dp" />
@@ -129,7 +126,6 @@
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:background="#FF6A6D80"
-                android:onClick="onClickSigns"
                 android:text="+"
                 android:textColor="@android:color/white"
                 android:textSize="35dp" />
@@ -147,7 +143,6 @@
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:background="@color/colorPrimaryDark"
-                android:onClick="onClick"
                 android:text="4"
                 android:textColor="@android:color/white"
                 android:textSize="35dp" />
@@ -158,7 +153,6 @@
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:background="@color/colorPrimaryDark"
-                android:onClick="onClick"
                 android:text="5"
                 android:textColor="@android:color/white"
                 android:textSize="35dp" />
@@ -169,7 +163,6 @@
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:background="@color/colorPrimaryDark"
-                android:onClick="onClick"
                 android:text="6"
                 android:textColor="@android:color/white"
                 android:textSize="35dp" />
@@ -180,7 +173,6 @@
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:background="#FF6A6D80"
-                android:onClick="onClickSigns"
                 android:text="-"
                 android:textColor="@android:color/white"
                 android:textSize="35dp" />
@@ -197,7 +189,6 @@
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:background="@color/colorPrimaryDark"
-                android:onClick="onClick"
                 android:text="7"
                 android:textColor="@android:color/white"
                 android:textSize="35dp" />
@@ -208,7 +199,6 @@
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:background="@color/colorPrimaryDark"
-                android:onClick="onClick"
                 android:text="8"
                 android:textColor="@android:color/white"
                 android:textSize="35dp" />
@@ -219,7 +209,6 @@
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:background="@color/colorPrimaryDark"
-                android:onClick="onClick"
                 android:text="9"
                 android:textColor="@android:color/white"
                 android:textSize="35dp" />
@@ -230,7 +219,6 @@
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:background="#FF6A6D80"
-                android:onClick="onClickSigns"
                 android:text="/"
                 android:textColor="@android:color/white"
                 android:textSize="35dp" />
@@ -248,7 +236,6 @@
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:background="@color/colorPrimaryDark"
-                android:onClick="onClick"
                 android:text="."
                 android:textColor="@android:color/white"
                 android:textSize="35dp" />
@@ -259,7 +246,6 @@
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:background="@color/colorPrimaryDark"
-                android:onClick="onClick"
                 android:text="0"
                 android:textColor="@android:color/white"
                 android:textSize="35dp" />
@@ -270,7 +256,6 @@
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:background="#FFC6728E"
-                android:onClick="calcuation"
                 android:text="="
                 android:textColor="@android:color/white"
                 android:textSize="35dp" />
@@ -281,7 +266,6 @@
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:background="#FF6A6D80"
-                android:onClick="onClickSigns"
                 android:text="*"
                 android:textColor="@android:color/white"
                 android:textSize="35dp" />

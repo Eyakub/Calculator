@@ -1,22 +1,17 @@
 package com.example.eyakub.calculator;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.TextView;
-
-import java.io.IOException;
-
-import static android.R.attr.button;
 
 public class MainActivity extends AppCompatActivity {
 
 
     Button button0 , button1 , button2 , button3 , button4 , button5 , button6 ,
             button7 , button8 , button9 , buttonAdd , buttonSub , buttonDivision ,
-            buttonMul , button10 , buttonC , buttonEqual ;
+            buttonMul , button10 , buttonC , buttonEqual, buttonDel ;
 
     TextView edt1, fullView;
 
@@ -25,8 +20,8 @@ public class MainActivity extends AppCompatActivity {
     boolean mAddition , mSubtract ,mMultiplication ,mDivision ;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    protected void onCreate(Bundle savedInstanctate) {
+        super.onCreate(savedInstanctate);
         setContentView(R.layout.activity_main);
 
         button0 = (Button) findViewById(R.id.button0);
@@ -46,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
         buttonDivision = (Button) findViewById(R.id.buttondiv);
         buttonC = (Button) findViewById(R.id.buttonC);
         buttonEqual = (Button) findViewById(R.id.buttoneql);
+        buttonDel = (Button) findViewById(R.id.buttonDel);
 
         edt1 = (TextView) findViewById(R.id.textView);
         fullView = (TextView) findViewById(R.id.fullView);
@@ -217,6 +213,15 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 edt1.setText(edt1.getText()+".");
                 fullView.setText(fullView.getText()+".");
+            }
+        });
+
+        buttonDel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String text = edt1.getText().toString();
+                edt1.setText(text.substring(0, text.length() - 1));
+                fullView.setText(text.substring(0, text.length() - 1));
             }
         });
     }
